@@ -16,7 +16,7 @@
 
 _gitbash_prompt_script=$(unset CDPATH && cd $(dirname "${BASH_SOURCE[0]}") && echo "${PWD}")/prompt.py
 
-if [[ -x "${_prompt_script}" ]]; then
+if [[ -x "${_gitbash_prompt_script}" ]]; then
     PROMPT_COMMAND=_gitbash_prompt
 else
     echo ERROR: Unable to find prompt.py script.
