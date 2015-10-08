@@ -62,11 +62,11 @@ symbols = {'git': '\\W',
            'prompt': '\\$ ',
            'ahead': '↑',
            'behind': '↓',
-           'staged': '●',
-           'conflict': '✖',
-           'changed': '✚',
+           'staged': '•',
+           'conflict': '×',
+           'changed': '+',
            'untracked': '…',
-           'clean': '✔'}
+           'clean': '*'}
 
 
 symbols.update(init_colors())
